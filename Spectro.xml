@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="187" inline="false" x="1" y="-6">
+  <block type="controls_whileUntil" id="187" inline="false" x="34" y="6">
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
       <block type="sensor_button" id="194">
@@ -32,7 +32,7 @@
                     </value>
                     <next>
                       <block type="oled_drawtext" id="89">
-                        <field name="TEXT">green</field>
+                        <field name="TEXT">green=</field>
                         <next>
                           <block type="oled_drawnumber" id="139" inline="true">
                             <value name="NUMBER">
@@ -54,7 +54,7 @@
                                 </value>
                                 <next>
                                   <block type="oled_drawtext" id="90">
-                                    <field name="TEXT"></field>
+                                    <field name="TEXT">yellow=</field>
                                     <next>
                                       <block type="oled_drawnumber" id="141" inline="true">
                                         <value name="NUMBER">
@@ -76,7 +76,7 @@
                                             </value>
                                             <next>
                                               <block type="oled_drawtext" id="91">
-                                                <field name="TEXT"></field>
+                                                <field name="TEXT">red=</field>
                                                 <next>
                                                   <block type="oled_drawnumber" id="143" inline="true">
                                                     <value name="NUMBER">
