@@ -1,14 +1,14 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="187" inline="false" x="34" y="6">
-    <field name="MODE">UNTIL</field>
-    <value name="NUMBER">
-      <block type="sensor_button" id="194">
-        <field name="OBJECT">ENTER</field>
-      </block>
-    </value>
-    <statement name="DO">
-      <block type="oled_cleardisplay" id="36">
-        <next>
+  <block type="oled_cleardisplay" id="36" x="47" y="-25">
+    <next>
+      <block type="controls_whileUntil" id="187" inline="false">
+        <field name="MODE">UNTIL</field>
+        <value name="NUMBER">
+          <block type="sensor_button" id="194">
+            <field name="OBJECT">UP</field>
+          </block>
+        </value>
+        <statement name="DO">
           <block type="oled_drawtext" id="88">
             <field name="TEXT">blue=</field>
             <next>
@@ -119,9 +119,9 @@
               </block>
             </next>
           </block>
-        </next>
+        </statement>
       </block>
-    </statement>
+    </next>
   </block>
   <block type="math_number" id="120" x="256" y="756">
     <field name="NUM">0</field>
