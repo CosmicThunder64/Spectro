@@ -1,1 +1,54 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="oled_cleardisplay" id="36" x="27" y="17">
+    <next>
+      <block type="oled_drawtext" id="88">
+        <field name="TEXT"></field>
+        <next>
+          <block type="oled_color" id="67">
+            <field name="OBJECT">GREEN</field>
+            <next>
+              <block type="oled_setcursor" id="76" inline="true">
+                <next>
+                  <block type="oled_drawtext" id="89">
+                    <field name="TEXT"></field>
+                    <next>
+                      <block type="oled_color" id="92">
+                        <field name="OBJECT">GREEN</field>
+                        <next>
+                          <block type="oled_setcursor" id="95" inline="true"></block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block type="oled_setcursor" id="97" inline="true" x="87" y="215"></block>
+  <block type="oled_setcursor" id="96" inline="true" x="19" y="247">
+    <next>
+      <block type="oled_drawtext" id="90">
+        <field name="TEXT"></field>
+        <next>
+          <block type="oled_color" id="93">
+            <field name="OBJECT">GREEN</field>
+            <next>
+              <block type="oled_drawtext" id="91">
+                <field name="TEXT"></field>
+                <next>
+                  <block type="oled_color" id="94">
+                    <field name="OBJECT">GREEN</field>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
