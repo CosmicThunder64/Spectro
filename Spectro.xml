@@ -22,7 +22,7 @@
                   <block type="oled_setcursor" id="5" inline="true">
                     <value name="STARTX">
                       <block type="math_number" id="6">
-                        <field name="NUM">0</field>
+                        <field name="NUM">10</field>
                       </block>
                     </value>
                     <value name="STARTY">
@@ -44,7 +44,7 @@
                               <block type="oled_setcursor" id="11" inline="true">
                                 <value name="STARTX">
                                   <block type="math_number" id="12">
-                                    <field name="NUM">0</field>
+                                    <field name="NUM">10</field>
                                   </block>
                                 </value>
                                 <value name="STARTY">
@@ -66,7 +66,7 @@
                                           <block type="oled_setcursor" id="17" inline="true">
                                             <value name="STARTX">
                                               <block type="math_number" id="18">
-                                                <field name="NUM">0</field>
+                                                <field name="NUM">10</field>
                                               </block>
                                             </value>
                                             <value name="STARTY">
@@ -88,7 +88,7 @@
                                                       <block type="oled_setcursor" id="23" inline="true">
                                                         <value name="STARTX">
                                                           <block type="math_number" id="24">
-                                                            <field name="NUM">0</field>
+                                                            <field name="NUM">10</field>
                                                           </block>
                                                         </value>
                                                         <value name="STARTY">
@@ -122,8 +122,5 @@
         </next>
       </block>
     </statement>
-  </block>
-  <block type="math_number" id="26" x="256" y="756">
-    <field name="NUM">0</field>
   </block>
 </xml>
